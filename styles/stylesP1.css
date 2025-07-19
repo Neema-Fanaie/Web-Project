@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #343434;
+    background-color: #232323;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     scrollbar-width: none;
@@ -19,7 +19,7 @@
 
 .logoText{
     background-color: #BB0001;
-    background-image: linear-gradient(45deg, #BB0001 10%, #efefef 90%);
+    background-image: linear-gradient(45deg, #6F2323 0%, #BB0001 50%, #efefef 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -78,13 +78,6 @@
 }
 .navLink:hover{
     color: #BB0001;
-}
-
-.underline{
-    background-color: #BB0001;
-    width: 98%;
-    height: 2px;
-    margin: 0 auto;
 }
 
 .backLink{

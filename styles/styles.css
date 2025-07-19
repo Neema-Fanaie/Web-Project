@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #343434;
+    background-color: #232323;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     scrollbar-width: none;
@@ -19,7 +19,7 @@
 
 .logoText{
     background-color: #BB0001;
-    background-image: linear-gradient(45deg, #BB0001 10%, #efefef 90%);
+    background-image: linear-gradient(45deg, #6F2323 0%, #BB0001 50%, #efefef 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -82,7 +82,7 @@
 
 .underline{
     background-color: #BB0001;
-    width: 98%;
+    width: 90%;
     height: 2px;
     margin: 0 auto;
 }
@@ -102,6 +102,8 @@
     grid-row-gap: 0px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 24px;
     height: 100%;
 }
@@ -130,13 +132,6 @@
     border-radius: 16px;
 }   
 
-.underline2{
-    background-color: #BB0001;
-    width: 90%;
-    height: 2px;
-    margin: 0 auto 0px auto;
-}
-
 .projectTitle {
     color: #efefef;
     font-size: 1.5rem;
@@ -161,7 +156,7 @@
     justify-content: center;
     margin-bottom: 10px;
     padding: 10px;
-    width: 20%;
+    width: 120px;
     margin: auto;
     background-color: #BB0001;
     border-radius: 8px;
@@ -217,4 +212,13 @@
     border-color: #BB0001  transparent #BB0001 transparent ;
     left: 10;
     position: absolute;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: #BB0001;
+    border-radius: 8px;
+    box-shadow: 0 9px #6F2323;
+    transition: all 0.3s ease;
 }
