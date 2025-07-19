@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #343434;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.logo{
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText{
+    background-color: #BB0001;
+    background-image: linear-gradient(45deg, #BB0001 10%, #efefef 90%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: default;  
+}
+
+.navContainer{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navList{
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: right;
+}
+
+.navItem{
+    background-color: transparent;
+    color: #efefef;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navItem:hover{
+    cursor: pointer;
+}
+
+.navLink{
+    background-color: transparent;
+    color: #efefef;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#currentPage{
+    background-color: transparent;
+    color: #6F2323;
+    border-radius: 5px;
+}
+.navLink:hover{
+    color: #BB0001;
+}
+
+.underline{
+    background-color: #BB0001;
+    width: 98%;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 8px;
+    border: 3px solid #efefef;
+}
+
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    display: grid;
+    align-items: center;
+    border-radius: 16px;
+    margin: 8px 20px 8px 20px;
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}   
+
+.underline2{
+    background-color: #BB0001;
+    width: 90%;
+    height: 2px;
+    margin: 0 auto 0px auto;
+}
+
+.projectTitle {
+    color: #efefef;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.projectDescription {
+    color: #efefef;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.projectLinkDiv {
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+    background-color: #BB0001;
+    border-radius: 8px;
+    box-shadow: 0 9px #6F2323;
+    transition: all 0.3s ease;
+}
+
+.projectLink {
+    display: flex;
+    align-items: center;
+}
+
+.projectLinkDiv:hover {
+    box-shadow: 0 0 #6F2323;
+    transform: translateY(9px);
+}
+
+.projectText{
+    width: 100%;
+    color: #efefef;
+    font-size: 1.25rem;
+    padding: auto;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.test{
+    height: 1000px;
+}
+
+.container {
+    background: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    border-color: transparent #608A32 transparent transparent;
+    right: 0;
+    position: absolute;
+}
