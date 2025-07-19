@@ -86,12 +86,13 @@
     height: 2px;
     margin: 0 auto;
 }
+
 .backLink{
     background-color: transparent;
     color: #efefef;
     text-decoration: none;
     padding: 10px;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .arrow {
@@ -100,7 +101,6 @@
     display: inline-block;
     padding: 10px;
     background-color: transparent;
-    border-radius: 1px;
 }
 
 .left {
