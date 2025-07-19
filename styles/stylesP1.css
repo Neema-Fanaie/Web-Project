@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #343434;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    scrollbar-width: none;
+}
+
+.logo{
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText{
+    background-color: #BB0001;
+    background-image: linear-gradient(45deg, #BB0001 10%, #efefef 90%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: default;  
+}
+
+.navContainer{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navList{
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: right;
+}
+
+.navItem{
+    background-color: transparent;
+    color: #efefef;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navItem:hover{
+    cursor: pointer;
+}
+
+.navLink{
+    background-color: transparent;
+    color: #efefef;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#currentPage{
+    background-color: transparent;
+    color: #6F2323;
+    border-radius: 5px;
+}
+.navLink:hover{
+    color: #BB0001;
+}
+
+.underline{
+    background-color: #BB0001;
+    width: 98%;
+    height: 2px;
+    margin: 0 auto;
+}
+.backLink{
+    background-color: transparent;
+    color: #efefef;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 2%;
+}
+
+.arrow {
+    border: solid #efefef;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 1px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}

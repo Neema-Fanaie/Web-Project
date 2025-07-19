@@ -5,6 +5,7 @@
     background-color: #343434;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    scrollbar-width: none;
 }
 
 .logo{
@@ -32,6 +33,7 @@
 .navContainer{
     position: sticky;
     top: 0;
+    z-index: 1000;
     background-color: #121212;
     display: flex;
     justify-content: space-between;
@@ -197,12 +199,22 @@
     border-radius: 12px;
 }
 
-.triangle {
+.triangle1 {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 30px 30px 0;
-    border-color: transparent #608A32 transparent transparent;
+    border-width: 0 10rem 10rem 0;
+    border-color: transparent #BB0001 transparent transparent;
     right: 0;
+    position: absolute;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10rem 0 10rem  0;
+    border-color: #BB0001  transparent #BB0001 transparent ;
+    left: 10;
     position: absolute;
 }
