@@ -173,32 +173,6 @@ p{
     text-align: justify;
 }
 
-/* .codeBlock{
-    background-color: #232323;
-    border-radius: 5px;
-    margin: 10px 20px 0 20px;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-}
-
-.codeTitleText{
-    padding: 0;
-    margin: 10px;
-    height: 30px;
-    color: #efefef;
-}
-
-.codePre {
-    display: block;
-    margin-top: 0;
-    padding: 0;
-}
-
-/* code{
-    height: 100%;
-} */ 
-
 .codeContainer{
     display: flex;
     flex-direction: column;
