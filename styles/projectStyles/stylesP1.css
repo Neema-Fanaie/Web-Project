@@ -16,6 +16,10 @@ body{
     font-size: 16px;
     line-height: 1.6;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 .logo{
     margin-left: 2%;
     display: flex;
@@ -27,6 +31,8 @@ body{
     background-color: #BB0001;
     background-image: linear-gradient(45deg, #6F2323 0%, #BB0001 50%, #efefef 100%);
     background-size: 100%;
+    padding: 5px;
+    margin: 0;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -212,8 +218,13 @@ code{
 }
 
 .folderChart{
-    width: 90%;
+    width: 80%;
     height: auto;
-    margin: 20px 0;
-    border-radius: 5px;
+    margin: 20px 0 0 0;
+}
+
+.imageTitle{
+    color: #efefef;
+    text-align: center;
+    font-size: 1rem;
 }
