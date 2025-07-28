@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: transparent;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     scrollbar-width: none;
 }
+
 body{
     background-color: #232323;
     font-size: 16px;
     line-height: 1.6;
 }
 .logo{
-    padding: 10px 20px;
     margin-left: 2%;
     display: flex;
     justify-content: center;
@@ -29,7 +32,7 @@ body{
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     cursor: default;  
 }
 
@@ -117,59 +120,60 @@ body{
 }
 
 .presentation{
-    border-color: pink;
     width: 800px; 
     height: 484px; 
 }
 
 .projectContainer{
-    background-color: #efefef;
-    border-radius: 20px;
-    height: 1000px;
+    background-color: #343434;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding: 20px;
     margin: 20px 5% 0 5%;
 }
 
 .projectMain{
-    width:70%;
+    width:69%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    color: #efefef;
 }
 
 .seperation{
-    height:100%;
     width: 3px;
-    background-color: transparent;
+    background-color: #6F2323;
     z-index: 999;
 }
 
 .projectSide{
-    width: 30%;
+    width: 29%;
     height: 100%;
     display: flex;
-    background-color: brown;
+    background-color: transparent;
 }
 
 h1{
     background-color: transparent;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
+h2{
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 20px;
+}
 p{
     background-color: transparent;
     margin-top: 10px;
     margin-left: 10px;
     padding-left: 10px;
     margin-right: 10px;
-    font-size: 1.2rem;
+    padding-right: 10px;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -198,4 +202,18 @@ code{
     height: 100%;
     width: 100%;
     border-radius: 0 0 5px 5px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.folderChart{
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
 }
